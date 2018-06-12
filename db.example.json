@@ -1,0 +1,14 @@
+[
+  {
+    "event": "click",
+    "data": {
+      "element": "#home"
+    }
+  },
+  {
+    "event": "click",
+    "data": {
+      "element": "#menu"
+    }
+  }
+]

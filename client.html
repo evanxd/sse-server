@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SSE Client</title>
+</head>
+<body>
+  <script>
+    var eventSource = new EventSource('http://localhost:8080');
+    eventSource.addEventListener('click', function(e) {
+      console.log(e.data);
+    });
+  </script>
+</body>
+</html>
